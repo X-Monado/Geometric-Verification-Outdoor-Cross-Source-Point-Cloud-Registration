@@ -1,0 +1,25 @@
+{
+  "data": "training/verifier_cache",
+  "data_protocol_sha256": "732a7c95845d4c571a9ee545b56d4441ff530e755e42e4b0aef9f8578bf22522",
+  "records_sha256": "958c8a1e7df4b7fb407f91ae1c4145ae88bd6a54a84302bcd2d6516c3443db9d",
+  "release_records_sha256": "90b308cff80ecfaccdbe02b3ad87fa969164cb06c40bd17d95d89c7dbb27d89a",
+  "source_sha256": "7ebea580fb47cecbe8112db48e4a3eaf01ac87900bfd6a2c03e62447bd889596",
+  "primary": [
+    15,
+    2
+  ],
+  "strict": [
+    2,
+    0.5
+  ],
+  "fold_steps": 400,
+  "full_steps": 800,
+  "objective": "Full-pool positive-mass NLL plus0.5 pair-balanced BCE;8 pairs/update",
+  "indices_from_sha256": "dd1cacda11c2916b78f24b5c042fab66f1aba25ddc643d561a6d3c77be2df054",
+  "fresh_initialization": true,
+  "fold_scope": "Head-only sequence-held-out; backbone has seen these train sequences.",
+  "training_splits_only": true,
+  "validation_access": false,
+  "test_access": false,
+  "interpretation": "Ranking logits are not calibrated success probabilities."
+}
