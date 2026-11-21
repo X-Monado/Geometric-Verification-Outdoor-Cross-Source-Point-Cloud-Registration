@@ -1,0 +1,4 @@
+{
+  "kitti": "/home/zjy24/DeepLearning/TEASER-plusplus-master/data/KITTI-CrossSource",
+  "cross3dreg": "/home/zjy24/DeepLearning/RAP-main/data/cross3dreg"
+}

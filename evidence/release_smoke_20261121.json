@@ -1,0 +1,107 @@
+{
+  "date_utc": "2026-11-21",
+  "environment": {
+    "platform": "Linux",
+    "gpu": "NVIDIA Tesla V100",
+    "python": "3.8.20",
+    "pytorch": "2.4.0+cu124",
+    "cuda_toolkit": "12.4",
+    "extension_rebuilt_from_release_sources": true,
+    "existing_conda_environment": true
+  },
+  "coverage": "Both domains, one validation pair and one test pair each, and short training updates. Full-test tables are from the archived evaluation.",
+  "datasets": [
+    {
+      "domain": "kitti",
+      "split": "train",
+      "pairs": 1294,
+      "missing_files": 0,
+      "metadata_sha256": "0d7f8946cf1e99734f6c79d21ba0780a107b23324f7c0644288c0609a29aeb25"
+    },
+    {
+      "domain": "kitti",
+      "split": "val",
+      "pairs": 168,
+      "missing_files": 0,
+      "metadata_sha256": "b3af0ea46e04aa5cb8ab5f4ee9638620ab25c235eddc3c2e0d3ff395601dcf02"
+    },
+    {
+      "domain": "kitti",
+      "split": "test",
+      "pairs": 544,
+      "missing_files": 0,
+      "metadata_sha256": "0ae22a7963ce79786a71b98226cdadcd03f3d7d64fb79ea4a71fd7cd9a672215"
+    },
+    {
+      "domain": "cross3dreg",
+      "split": "train",
+      "pairs": 7772,
+      "missing_files": 0,
+      "metadata_sha256": "97311d4557d55a208a0ca6358dbb34222a88c76ccaed9b315869b12b55254515"
+    },
+    {
+      "domain": "cross3dreg",
+      "split": "val",
+      "pairs": 1314,
+      "missing_files": 0,
+      "metadata_sha256": "2bf40ff4af78b87fe2565008d32df40ed29fb971bf9eb45df2b541822110d57e"
+    },
+    {
+      "domain": "cross3dreg",
+      "split": "test",
+      "pairs": 4145,
+      "missing_files": 0,
+      "metadata_sha256": "c215c815be8368a0acf2cbf5f4576b1ea90adb057a13b321423bce0a62ff4dd3"
+    }
+  ],
+  "validation": {
+    "kitti": {
+      "pair_id": "val_06_000062_000054",
+      "arms": 2,
+      "max_pose_difference": 0.0,
+      "max_IR1_difference": 0.0
+    },
+    "cross3dreg": {
+      "pair_id": "val_06_000000",
+      "arms": 2,
+      "max_pose_difference": 0.0,
+      "max_IR1_difference": 0.0
+    }
+  },
+  "full_test": {
+    "kitti": {
+      "pair_id": "test_08_000078_000059",
+      "arms": 10,
+      "max_pose_difference": 0.0,
+      "max_IR1_difference": 0.0
+    },
+    "cross3dreg": {
+      "pair_id": "test_08_000000",
+      "arms": 10,
+      "max_pose_difference": 0.0,
+      "max_IR1_difference": 0.0
+    }
+  },
+  "training": {
+    "joint": [
+      {
+        "pair_id": "train_03_000440_000430",
+        "loss": 5.546916961669922
+      },
+      {
+        "pair_id": "train_00_004376_004362",
+        "loss": 4.820239543914795
+      },
+      {
+        "pair_id": "train_04_000152",
+        "loss": 3.0212559700012207
+      }
+    ],
+    "verifier": [
+      {
+        "step": 1,
+        "loss": 1.3428678512573242
+      }
+    ]
+  }
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "domain": "kitti",
+    "split": "train",
+    "pairs": 1294,
+    "missing_files": 0,
+    "metadata_sha256": "0d7f8946cf1e99734f6c79d21ba0780a107b23324f7c0644288c0609a29aeb25",
+    "expected_hash_matches": null
+  },
+  {
+    "domain": "kitti",
+    "split": "val",
+    "pairs": 168,
+    "missing_files": 0,
+    "metadata_sha256": "b3af0ea46e04aa5cb8ab5f4ee9638620ab25c235eddc3c2e0d3ff395601dcf02",
+    "expected_hash_matches": true
+  },
+  {
+    "domain": "kitti",
+    "split": "test",
+    "pairs": 544,
+    "missing_files": 0,
+    "metadata_sha256": "0ae22a7963ce79786a71b98226cdadcd03f3d7d64fb79ea4a71fd7cd9a672215",
+    "expected_hash_matches": true
+  },
+  {
+    "domain": "cross3dreg",
+    "split": "train",
+    "pairs": 7772,
+    "missing_files": 0,
+    "metadata_sha256": "97311d4557d55a208a0ca6358dbb34222a88c76ccaed9b315869b12b55254515",
+    "expected_hash_matches": null
+  },
+  {
+    "domain": "cross3dreg",
+    "split": "val",
+    "pairs": 1314,
+    "missing_files": 0,
+    "metadata_sha256": "2bf40ff4af78b87fe2565008d32df40ed29fb971bf9eb45df2b541822110d57e",
+    "expected_hash_matches": true
+  },
+  {
+    "domain": "cross3dreg",
+    "split": "test",
+    "pairs": 4145,
+    "missing_files": 0,
+    "metadata_sha256": "c215c815be8368a0acf2cbf5f4576b1ea90adb057a13b321423bce0a62ff4dd3",
+    "expected_hash_matches": true
+  }
+]

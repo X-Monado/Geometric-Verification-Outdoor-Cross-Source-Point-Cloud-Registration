@@ -1,0 +1,4 @@
+{
+  "kitti": "/path/to/KITTI-CrossSource",
+  "cross3dreg": "/path/to/cross3dreg"
+}

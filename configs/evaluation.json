@@ -1,0 +1,41 @@
+{
+  "limits": [
+    57,
+    69,
+    84,
+    98,
+    93
+  ],
+  "seed": 7351,
+  "stage": "full",
+  "primary": {
+    "kitti": [
+      5,
+      2
+    ],
+    "cross3dreg": [
+      5,
+      1
+    ]
+  },
+  "strict": [
+    2,
+    0.5
+  ],
+  "update_gate": {
+    "rotation_deg": 2,
+    "translation_m": 0.4
+  },
+  "weights": {
+    "overlap.pt": "dc36b59ad49ca6eeef3d69ffd0fdedc4a466d12d1ffa4f4d0f5294003b1f7a8d",
+    "verifier.pt": "663509eb512a6022aa53a2e2a9828f045cc724f4c783e0e4dbbe5780ccf5b09f",
+    "native.pt": "8d51512fb2be226cfd36374aa3940ae5db52d10fb70b6897d2d030e0fbc1f270",
+    "training_init.pt": "20996636f6134081a6938198d413c2aedf491f06f689094573ff545c4f538391"
+  },
+  "metadata_hashes": {
+    "kitti/val_cs2.pkl": "b3af0ea46e04aa5cb8ab5f4ee9638620ab25c235eddc3c2e0d3ff395601dcf02",
+    "cross3dreg/val.pkl": "2bf40ff4af78b87fe2565008d32df40ed29fb971bf9eb45df2b541822110d57e",
+    "kitti/test_cs2.pkl": "0ae22a7963ce79786a71b98226cdadcd03f3d7d64fb79ea4a71fd7cd9a672215",
+    "cross3dreg/test.pkl": "c215c815be8368a0acf2cbf5f4576b1ea90adb057a13b321423bce0a62ff4dd3"
+  }
+}
