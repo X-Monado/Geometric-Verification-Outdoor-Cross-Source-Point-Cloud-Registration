@@ -1,0 +1,22 @@
+name: crosssource-reg
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.8
+  - pip
+  - ninja
+  - cuda-toolkit=12.4
+  - pip:
+      - --extra-index-url https://download.pytorch.org/whl/cu124
+      - torch==2.4.0+cu124
+      - numpy==1.24.4
+      - scipy==1.10.1
+      - open3d==0.19.0
+      - joblib==1.4.2
+      - easydict
+      - einops
+      - tqdm
+      - ipdb
+      - tensorboard
