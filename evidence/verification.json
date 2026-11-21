@@ -1,0 +1,26 @@
+[
+  {
+    "domain": "kitti",
+    "pair_id": "val_06_000062_000054",
+    "full_max_abs_pose_difference": 0.0
+  },
+  {
+    "domain": "cross3dreg",
+    "pair_id": "val_06_000000",
+    "full_max_abs_pose_difference": 0.0
+  },
+  {
+    "joint_training_one_step": {
+      "step": 1,
+      "loss": 5.546916961669922,
+      "coarse_loss": 0.8611513376235962,
+      "positive_loss": 4.230449199676514,
+      "unmatched_loss": 0.9106253385543823,
+      "gradient_norm": 25.401273727416992,
+      "positive_edges": 408,
+      "pair_id": "train_03_000440_000430",
+      "fine_regions": 32
+    },
+    "verifier_one_step": true
+  }
+]

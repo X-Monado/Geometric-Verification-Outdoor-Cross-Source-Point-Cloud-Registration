@@ -1,0 +1,606 @@
+{
+  ".gitattributes": {
+    "bytes": 115,
+    "sha256": "8c93699d55c99c9eed2b1ad0af2cb23050f9af29d086fc7185b8333e16c66f7e"
+  },
+  ".gitignore": {
+    "bytes": 388,
+    "sha256": "b18fa771072eef749e9a48a31844414214620722511a67bf336c5a1813c62a98"
+  },
+  "README.md": {
+    "bytes": 4944,
+    "sha256": "ae59a7642213ab9c8cee99fe2d23bf5caa68ba6d9509cd666264dbb95dab047f"
+  },
+  "README_zh.md": {
+    "bytes": 1889,
+    "sha256": "b02a566cbb51a68db12239d68a9eba9a9f9cc4dd5c8edad21264f4dec5263c66"
+  },
+  "THIRD_PARTY_LICENSE.GeoTransformer": {
+    "bytes": 1066,
+    "sha256": "564ae16f28676276df1e4489b4db3bee306ae89ece9c96a3344c4c9cccf68138"
+  },
+  "configs/evaluation.json": {
+    "bytes": 1075,
+    "sha256": "604deccaa94eb0c704c44221028882340e7a02cfcbdba3fe666d72f945fabe78"
+  },
+  "configs/paths.example.json": {
+    "bytes": 82,
+    "sha256": "ad80f6eafa371b7a82e9f46e8df772f9855c1418e4f0d483f542dace8f01593e"
+  },
+  "crossreg/__init__.py": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "crossreg/interventions.py": {
+    "bytes": 2781,
+    "sha256": "0beed783d9286698ea8e1e4db48b9ac6a72634637d45ee4320657a564c8c91b5"
+  },
+  "crossreg/listwise.py": {
+    "bytes": 1989,
+    "sha256": "00abce9ad5ac4a6f0fdd6ded29d4b84f5dd7d106c8a8a5f5aecfbb3d8967869a"
+  },
+  "crossreg/metrics.py": {
+    "bytes": 1765,
+    "sha256": "799851c2f337245b8d4281f8f831dd207bcfa410b0d5e27d3ff9042722ef6319"
+  },
+  "crossreg/runtime.py": {
+    "bytes": 3926,
+    "sha256": "fc562273db16c8d3f782f9e658d57eded7f6b30c68dd52e776e245ec8c87e0f6"
+  },
+  "crossreg/training_loss.py": {
+    "bytes": 2846,
+    "sha256": "fca80983e6982de0d67fc896fd07db9fa1e2ade9bc22d25cddc659728bfabab3"
+  },
+  "data/README.md": {
+    "bytes": 2116,
+    "sha256": "94c9f5cc5c942a8347df38c1a06300de6b3474c7d6c526080d0e545deb8035e3"
+  },
+  "docs/PUBLISHING.md": {
+    "bytes": 1637,
+    "sha256": "69bc6d8abcde079c93b15186a0c10a5fa437a4bbec86a9b9617a47939e67618d"
+  },
+  "docs/TRAINING.md": {
+    "bytes": 2030,
+    "sha256": "b66af35af0935db0a4808af4dd757e2717a079157ee227397baf153111def711"
+  },
+  "environment.observed.txt": {
+    "bytes": 3761,
+    "sha256": "50177dfc63755bef77495b2d8b3180d9d13cdca48a9bea88d363cce9b055d3fb"
+  },
+  "environment.yml": {
+    "bytes": 408,
+    "sha256": "69a7549f394396bd1ac8f981ae5de2cf60df63376a57d1fd064ef51b0a2aa2ce"
+  },
+  "evaluate.py": {
+    "bytes": 5093,
+    "sha256": "a44ae65f02b7c574b84abf7f4c819d850fdba58c2d722c1e3d00238ea10f430b"
+  },
+  "evidence/core_source_provenance.json": {
+    "bytes": 3167,
+    "sha256": "25cd88076531c038cbb0391c6802f884800df281cb1103227219ac866f914c9e"
+  },
+  "evidence/data_check.json": {
+    "bytes": 1341,
+    "sha256": "ac2c657501c7a3f9421f4ba8aa9193cf1710fc3ed709dbc16a8c0a682e8169e5"
+  },
+  "evidence/full_test_audit.json": {
+    "bytes": 424,
+    "sha256": "7c9a2282fc1ad6c25dc3f0d1cb690056aad67f639961b22bfe82545999226744"
+  },
+  "evidence/full_test_interventions.csv": {
+    "bytes": 4004,
+    "sha256": "eac2f7865c6bb75a2aedbb3d1953d78d81ee199789137fe3f43e296214b2c1df"
+  },
+  "evidence/full_test_paired_transitions.csv": {
+    "bytes": 5490,
+    "sha256": "2bc7f7cd67e12a6a06dbe8d2906393b1480104dce593b4ed8c9c638f7fd06e9c"
+  },
+  "evidence/legacy_summary_5deg_1m.csv": {
+    "bytes": 1511,
+    "sha256": "6195faa86ee3bde1e9d810d9a567055cc8eaa4741b767d9728a8f2050386b0ea"
+  },
+  "evidence/pairs.csv": {
+    "bytes": 2879646,
+    "sha256": "a0518b24f92331f3be64ea2cb65f9074895fa366055d2233c09fb2a06be89309"
+  },
+  "evidence/release_smoke_20261121.json": {
+    "bytes": 2717,
+    "sha256": "3486e07991c4d6e10a3fac799397a75fb5757dbfad37c6fff59ebc30516a6e9d"
+  },
+  "evidence/smoke_expected.json": {
+    "bytes": 7890,
+    "sha256": "530d66d85035d7ee604da770bcf1bb42e3de426699005a6991479a144143635f"
+  },
+  "evidence/smoke_test_expected.json": {
+    "bytes": 13162,
+    "sha256": "1d680d9af1b546942ad88106e38aff00f60bce37e4f99eb572ce498a4eab9b89"
+  },
+  "evidence/smoke_validation_expected.json": {
+    "bytes": 2795,
+    "sha256": "b7fc403d0fc1449c525cf1765546cba60b499541dacce8f34fa224d39b358994"
+  },
+  "evidence/summary.csv": {
+    "bytes": 2677,
+    "sha256": "8215dc37e319d39c2365d5d1bd85013e0d530b4dfbaf31cd87eeeb9ac4203384"
+  },
+  "evidence/verification.json": {
+    "bytes": 618,
+    "sha256": "7896bc1b1dc8938b38a948d15e06c2b070aea6ea525ec3e3698a29053c00dd38"
+  },
+  "outdoor_adaptation/__init__.py": {
+    "bytes": 77,
+    "sha256": "73156a66dfbad59406a42918029701dd4875f3cdd0c1117bf4160a2cb79e356c"
+  },
+  "outdoor_adaptation/cloudwise_norm.py": {
+    "bytes": 1742,
+    "sha256": "6fdc39d7a62e88924576a9a417fa073fbbc69cc31af7730cf12b2e83e07f0317"
+  },
+  "outdoor_adaptation/consistency_guard.py": {
+    "bytes": 1004,
+    "sha256": "f11604fd346461c34112b77857a3f66b21c62fc59704d4dcb6078b4c4197fb40"
+  },
+  "outdoor_adaptation/fine_interaction.py": {
+    "bytes": 2692,
+    "sha256": "291ef97fab41c81e679c5bb2c886bcfabc17b56888638ab619303d5f7bebd258"
+  },
+  "outdoor_adaptation/joint_fine_interaction.py": {
+    "bytes": 2587,
+    "sha256": "2dc18685bff5b0808c4d85e04eb262697005db37c89ff58305d319e73967e050"
+  },
+  "outdoor_adaptation/pose_guided_registration.py": {
+    "bytes": 12122,
+    "sha256": "5acce8caa1bebd1ec512b21264a645fd042e36d4b537a5e1ebc6a82fc52d7fba"
+  },
+  "outdoor_adaptation/prior_refinement.py": {
+    "bytes": 1566,
+    "sha256": "09ed38895050836f1904472ced87a748fbf449628ed5bbca58833b71ee3bdf60"
+  },
+  "outdoor_registration/__init__.py": {
+    "bytes": 71,
+    "sha256": "9b363049a34a99c6afc5307dd779ef15dcff4dd7a453ae0c894c074151d11920"
+  },
+  "outdoor_registration/backbone.py": {
+    "bytes": 5227,
+    "sha256": "817593f25ab709d57b6cea217f10b70200e618a6d1f6b6a207b6ce0b7441026c"
+  },
+  "outdoor_registration/bootstrap.py": {
+    "bytes": 203,
+    "sha256": "ab151e407f9cadd0168f2f8bf4b01913d4e1baf83013caeb7dc197e293507892"
+  },
+  "outdoor_registration/config.py": {
+    "bytes": 3150,
+    "sha256": "4930e9929ce7bdbe5a3ac8b5dea348bdb3b23fe3a23bd6a84066f8216a39b971"
+  },
+  "outdoor_registration/data.py": {
+    "bytes": 7348,
+    "sha256": "1716b99dff2024b99a5d09d8923845b49b5ded4d998ff766ff8c85366e845a39"
+  },
+  "outdoor_registration/expanded_data.py": {
+    "bytes": 3919,
+    "sha256": "43d22518cef98b4736da7b99241c168cee45b7f06b47890077eeb9e71c762fb6"
+  },
+  "outdoor_registration/kitti_crosssource.py": {
+    "bytes": 2656,
+    "sha256": "9b66af0e3c28f1a274ff913ce6685ceea619afc5f89fc5ee2a3ea33bf0fcd68b"
+  },
+  "outdoor_registration/loss.py": {
+    "bytes": 6486,
+    "sha256": "e91170aae6698f912b59f45d05eb71385e25bd72cb2dc437a78999941ae02952"
+  },
+  "outdoor_registration/model.py": {
+    "bytes": 9619,
+    "sha256": "eac143f36c1181d7d4db024fe0a38262b9d91212f9e54d495d087e54e6980636"
+  },
+  "outdoor_registration/runtime.py": {
+    "bytes": 478,
+    "sha256": "6ceb902149f5154bd675b8b59b28411dc0647ce5bc38552dce69c644ab21fb75"
+  },
+  "outdoor_registration/small_cloud.py": {
+    "bytes": 4399,
+    "sha256": "147feef96ab511e454f8f86fc03fac65b8d76bc93ca8b493482bc0a38f670c6e"
+  },
+  "outdoor_registration/vendor/geotransformer/__init__.py": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "outdoor_registration/vendor/geotransformer/datasets/__init__.py": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "outdoor_registration/vendor/geotransformer/datasets/registration/__init__.py": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "outdoor_registration/vendor/geotransformer/datasets/registration/hetero/__init__.py": {
+    "bytes": 123,
+    "sha256": "8c9c5f8bb48b98ce4b41b4c5d519ec04853a0a7c6a166c47bd14e6abafe5994d"
+  },
+  "outdoor_registration/vendor/geotransformer/datasets/registration/hetero/dataset.py": {
+    "bytes": 5526,
+    "sha256": "519ae7da228e9c2d44da6a61d8d698fd0b93ce28f871ee7bf684bb0d975d4f4b"
+  },
+  "outdoor_registration/vendor/geotransformer/datasets/registration/kitti/__init__.py": {
+    "bytes": 136,
+    "sha256": "859d7ceba8a28f26c492078ddc6e48ef3156e8b9ced8b547e4a59d9f24555909"
+  },
+  "outdoor_registration/vendor/geotransformer/datasets/registration/kitti/dataset.py": {
+    "bytes": 5105,
+    "sha256": "3b2a499998c557f20b96ae0270c890c320fdfa72075e18a41a72aa082ff9c988"
+  },
+  "outdoor_registration/vendor/geotransformer/datasets/registration/modelnet/__init__.py": {
+    "bytes": 86,
+    "sha256": "a8a5a18f3cd63b5574a919029b0d246b4b2128ef2dce38969d8b690730dfd57e"
+  },
+  "outdoor_registration/vendor/geotransformer/datasets/registration/modelnet/dataset.py": {
+    "bytes": 10405,
+    "sha256": "8b7763888751ceacdcd2f1318b1da519c21dc0953f9796d01a7dd8e06a052ffc"
+  },
+  "outdoor_registration/vendor/geotransformer/datasets/registration/threedmatch/__init__.py": {
+    "bytes": 292,
+    "sha256": "e6abd77ee7b0453f4a941f96abb9ef14873f2efc3bf42395f04aa028bf1c64e0"
+  },
+  "outdoor_registration/vendor/geotransformer/datasets/registration/threedmatch/dataset.py": {
+    "bytes": 5172,
+    "sha256": "7498a85a142739ea5888121279938bf9437aeda2cbfec048e1070f3722842927"
+  },
+  "outdoor_registration/vendor/geotransformer/datasets/registration/threedmatch/utils.py": {
+    "bytes": 8248,
+    "sha256": "f3e1d4ce8da6100b259081ad88fde6b1a87cecf23ddddb4e7eefd94cc28774ac"
+  },
+  "outdoor_registration/vendor/geotransformer/engine/__init__.py": {
+    "bytes": 251,
+    "sha256": "d75a7b7199297cd4122659297b879e44b44be204ec74358e9b690ab925af2fa1"
+  },
+  "outdoor_registration/vendor/geotransformer/engine/base_tester.py": {
+    "bytes": 2898,
+    "sha256": "7f5979db0bb8b2846154a1777e04b88f711cd0c17bf4b2a209c15706d523395d"
+  },
+  "outdoor_registration/vendor/geotransformer/engine/base_trainer.py": {
+    "bytes": 9586,
+    "sha256": "d176be1aa8f986d85210765d1063e5282eff87fccd0230fdece6992f1b6b7e95"
+  },
+  "outdoor_registration/vendor/geotransformer/engine/epoch_based_trainer.py": {
+    "bytes": 7031,
+    "sha256": "82e5f690f8a55894d83845b1f0380d8d1a707f2afb972d075a246c1046655437"
+  },
+  "outdoor_registration/vendor/geotransformer/engine/iter_based_trainer.py": {
+    "bytes": 7415,
+    "sha256": "dcffeb8855617c1682a40f45075e6a5ba0a79c65d99c2d043de23772a29b528c"
+  },
+  "outdoor_registration/vendor/geotransformer/engine/logger.py": {
+    "bytes": 1492,
+    "sha256": "7763953fe87bcc3bf2494814bdda6fa07979048376e5ba315c1233d3ffdee209"
+  },
+  "outdoor_registration/vendor/geotransformer/engine/single_tester.py": {
+    "bytes": 2687,
+    "sha256": "477cf077b593339ebab75f4a50c1f8241b5eedfb93038df52e7de8273602acfa"
+  },
+  "outdoor_registration/vendor/geotransformer/extensions/common/torch_helper.h": {
+    "bytes": 1698,
+    "sha256": "6025206c5e99615c25ce700f73b62ac42e0109c86f778a968399823cdc8019fb"
+  },
+  "outdoor_registration/vendor/geotransformer/extensions/cpu/grid_subsampling/grid_subsampling.cpp": {
+    "bytes": 1542,
+    "sha256": "9eb10b666f094243a16c8521daeb0b6f9fa23ccb27ae8dbee9b6492ade733610"
+  },
+  "outdoor_registration/vendor/geotransformer/extensions/cpu/grid_subsampling/grid_subsampling.h": {
+    "bytes": 179,
+    "sha256": "fb404634b9390cc6db87c5162775dc19740b1818fcd27e868a1612da87fde27c"
+  },
+  "outdoor_registration/vendor/geotransformer/extensions/cpu/grid_subsampling/grid_subsampling_cpu.cpp": {
+    "bytes": 2410,
+    "sha256": "8c74f6355a71fe0751cfd9a97923eed7f406ab343b7bb6e23b9031c895befc89"
+  },
+  "outdoor_registration/vendor/geotransformer/extensions/cpu/grid_subsampling/grid_subsampling_cpu.h": {
+    "bytes": 603,
+    "sha256": "77f42d6f1f6746acec85ea087e6809705951fbf402fd237861e3bbfbc01be11d"
+  },
+  "outdoor_registration/vendor/geotransformer/extensions/cpu/radius_neighbors/radius_neighbors.cpp": {
+    "bytes": 1958,
+    "sha256": "4f93d0d8127c0d4a2e72c1103f02ff852ddef85dcc4f11c6dd64d4b19dd39ffb"
+  },
+  "outdoor_registration/vendor/geotransformer/extensions/cpu/radius_neighbors/radius_neighbors.h": {
+    "bytes": 195,
+    "sha256": "2c51af2fbd0ed41ebb8a93b36ba7b6ce08516895c4056fe3cad7e02e0ab8adf0"
+  },
+  "outdoor_registration/vendor/geotransformer/extensions/cpu/radius_neighbors/radius_neighbors_cpu.cpp": {
+    "bytes": 2276,
+    "sha256": "8b5e9bec4cf3e7f581efcd3b5eda638412df60f78f71bf60e719bb5cb43b2326"
+  },
+  "outdoor_registration/vendor/geotransformer/extensions/cpu/radius_neighbors/radius_neighbors_cpu.h": {
+    "bytes": 448,
+    "sha256": "2f9db5f2e449d02aa6ceeed05a7ea3d4669053b3f9bdca9656450f8fdde1f18d"
+  },
+  "outdoor_registration/vendor/geotransformer/extensions/extra/cloud/cloud.cpp": {
+    "bytes": 640,
+    "sha256": "d3e375f8fe97afc9393ba0a30f8dd9e242c159fabff7b0b73ee8632fb515cd90"
+  },
+  "outdoor_registration/vendor/geotransformer/extensions/extra/cloud/cloud.h": {
+    "bytes": 3099,
+    "sha256": "800cf26b903b764fd38937afcc27bdb0727f60e082e6f3075894a6b8743dafac"
+  },
+  "outdoor_registration/vendor/geotransformer/extensions/extra/nanoflann/nanoflann.hpp": {
+    "bytes": 73133,
+    "sha256": "0655ba43dcf3be6fc0af4985bb41186520dc3d16f350cce3b6f8f6544361d951"
+  },
+  "outdoor_registration/vendor/geotransformer/extensions/pybind.cpp": {
+    "bytes": 378,
+    "sha256": "b6e7210c8578af137563ea4933b9f7e87b2e39303a40e04f63f056e3673ce345"
+  },
+  "outdoor_registration/vendor/geotransformer/modules/__init__.py": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "outdoor_registration/vendor/geotransformer/modules/geotransformer/__init__.py": {
+    "bytes": 477,
+    "sha256": "800a863ec8f276a3938251f40130eae5ece439616335182c8996b935b310da27"
+  },
+  "outdoor_registration/vendor/geotransformer/modules/geotransformer/geotransformer.py": {
+    "bytes": 5681,
+    "sha256": "1ae341e740fd94cd9346cc9d549d32c0a5eff78054b3ba99e745652d825fe415"
+  },
+  "outdoor_registration/vendor/geotransformer/modules/geotransformer/local_global_registration.py": {
+    "bytes": 11826,
+    "sha256": "98a64b6f9bede465be7d83722e780b29c0fbf6f03b36d3918254e0e6e954899e"
+  },
+  "outdoor_registration/vendor/geotransformer/modules/geotransformer/point_matching.py": {
+    "bytes": 4906,
+    "sha256": "0e14a0e7ad88ac31c2a2b3b8bc5726fd84be99a76c414cf9f220b2ed9c915d81"
+  },
+  "outdoor_registration/vendor/geotransformer/modules/geotransformer/superpoint_matching.py": {
+    "bytes": 2633,
+    "sha256": "ce490e59c1338b9194a74ec5012a96ed1301722f15ce2a6be78da8276f605a3d"
+  },
+  "outdoor_registration/vendor/geotransformer/modules/geotransformer/superpoint_target.py": {
+    "bytes": 1812,
+    "sha256": "aa13888a8414893fdfe8eb7acf27c786f9757edb91ed7c1c48f5d4ee2fcf4094"
+  },
+  "outdoor_registration/vendor/geotransformer/modules/kpconv/__init__.py": {
+    "bytes": 342,
+    "sha256": "22be326819a9f337099c5acc3315a4083acd01b6f573e5f384a7564c52f2bbea"
+  },
+  "outdoor_registration/vendor/geotransformer/modules/kpconv/dispositions/k_015_center_3D.ply": {
+    "bytes": 505,
+    "sha256": "1b24ecde1fc345be11babc98c7ecbef81c7491e2703bf63ea6e03d948488c229"
+  },
+  "outdoor_registration/vendor/geotransformer/modules/kpconv/functional.py": {
+    "bytes": 2918,
+    "sha256": "746f30c5037834b8fea495df93d0ecaa8c3c967d084701cd462577b530545948"
+  },
+  "outdoor_registration/vendor/geotransformer/modules/kpconv/kernel_points.py": {
+    "bytes": 16726,
+    "sha256": "f73b572bddf246eec555f971d41412f7bb091d8b79bcf5baea40e5738fb8ce5b"
+  },
+  "outdoor_registration/vendor/geotransformer/modules/kpconv/kpconv.py": {
+    "bytes": 5257,
+    "sha256": "fa970a4c71a8be21ddaef349ce53ce3c3e8f815ba0d3c7fe75829d1af6c337f2"
+  },
+  "outdoor_registration/vendor/geotransformer/modules/kpconv/modules.py": {
+    "bytes": 7155,
+    "sha256": "c6cf7fbd1424a095d704d03c256a46b0329701672ae583d4c6e92791ab566c98"
+  },
+  "outdoor_registration/vendor/geotransformer/modules/layers/__init__.py": {
+    "bytes": 186,
+    "sha256": "ab38879c3563bae3e37489a60e73177ce82b1e0aaf70bc17717b897e21e8ac2c"
+  },
+  "outdoor_registration/vendor/geotransformer/modules/layers/conv_block.py": {
+    "bytes": 3326,
+    "sha256": "1321f794ad5c43c07a4eef00d7652d59b6f8fdc2708c1407542ed68d4648a760"
+  },
+  "outdoor_registration/vendor/geotransformer/modules/layers/factory.py": {
+    "bytes": 2489,
+    "sha256": "edf2dd9e322219765387a73d7d742f5cedad2723cea875d5960a90be00625600"
+  },
+  "outdoor_registration/vendor/geotransformer/modules/loss/__init__.py": {
+    "bytes": 84,
+    "sha256": "4326df2d66ffafde18a4eabd677748d1c4016529e92f105cdbf07eee713adb53"
+  },
+  "outdoor_registration/vendor/geotransformer/modules/loss/circle_loss.py": {
+    "bytes": 4897,
+    "sha256": "f2b882a002de58b6fd32baa92ce69ffcf9839911b69305b89fd6acc0b1ea0443"
+  },
+  "outdoor_registration/vendor/geotransformer/modules/ops/__init__.py": {
+    "bytes": 830,
+    "sha256": "92cf42075493d8b91e4b7a8607cbdc0df518766326488adcf140a6a2cf909cc9"
+  },
+  "outdoor_registration/vendor/geotransformer/modules/ops/grid_subsample.py": {
+    "bytes": 651,
+    "sha256": "c12aae19f1ed3018af0564311e249d864d0576fdb2abe70d59bf07e88b39a972"
+  },
+  "outdoor_registration/vendor/geotransformer/modules/ops/index_select.py": {
+    "bytes": 1178,
+    "sha256": "6c266c1f58a19727decfea706da2b394fe696b332c2b939c423225385407b843"
+  },
+  "outdoor_registration/vendor/geotransformer/modules/ops/pairwise_distance.py": {
+    "bytes": 1205,
+    "sha256": "c1f63975132d630fc0769de1430ae20c88507688e99b04b354df72f6b90677e2"
+  },
+  "outdoor_registration/vendor/geotransformer/modules/ops/pointcloud_partition.py": {
+    "bytes": 6727,
+    "sha256": "adbf586ab9c2b3627e3d84c5b50682541da88171877352665ad6958e97176b51"
+  },
+  "outdoor_registration/vendor/geotransformer/modules/ops/radius_search.py": {
+    "bytes": 1080,
+    "sha256": "35362da2dd76cbb4523b28c19989178ecce0b9da7318c250dc197032f0adda07"
+  },
+  "outdoor_registration/vendor/geotransformer/modules/ops/transformation.py": {
+    "bytes": 9353,
+    "sha256": "2f949bcbf7448b145e6aacffd476ddc168ea6b2350551f83ccaae51174c891f2"
+  },
+  "outdoor_registration/vendor/geotransformer/modules/ops/vector_angle.py": {
+    "bytes": 992,
+    "sha256": "2f0ead88cad551df30372df42693da95bb99ece7ad54379268130af2b5a58751"
+  },
+  "outdoor_registration/vendor/geotransformer/modules/registration/__init__.py": {
+    "bytes": 746,
+    "sha256": "53e4fedf67e4c5a4af0dca3f84ba87ed0b097a4fd488882acdba9a363303dee0"
+  },
+  "outdoor_registration/vendor/geotransformer/modules/registration/matching.py": {
+    "bytes": 17457,
+    "sha256": "c1f22e9c450c496e88ee5a71cb9bfb3dec9ac3d321a6459f9bab26fe8d7391fa"
+  },
+  "outdoor_registration/vendor/geotransformer/modules/registration/metrics.py": {
+    "bytes": 5779,
+    "sha256": "e92f8568011f4ba3e44a24615a85cecc48d0637eb3b565fa92ca2174ea8c99fc"
+  },
+  "outdoor_registration/vendor/geotransformer/modules/registration/procrustes.py": {
+    "bytes": 3119,
+    "sha256": "d739b6094ee65f356938ccb4e8b4d3fe614f2317a42b64171052b1ed8fecd8e6"
+  },
+  "outdoor_registration/vendor/geotransformer/modules/sinkhorn/__init__.py": {
+    "bytes": 92,
+    "sha256": "114f793779e5946e8a85161fb59cf9207bdae6551cc8f5927a11938580288269"
+  },
+  "outdoor_registration/vendor/geotransformer/modules/sinkhorn/learnable_sinkhorn.py": {
+    "bytes": 3081,
+    "sha256": "16892496f29284077858dc01fb5620712a73b78d675ece2862105cf2201dab9d"
+  },
+  "outdoor_registration/vendor/geotransformer/modules/transformer/__init__.py": {
+    "bytes": 763,
+    "sha256": "90d6b3bbb43d13c7455aa34f66a4119f500a523f46529faedd6d429f1a410ba7"
+  },
+  "outdoor_registration/vendor/geotransformer/modules/transformer/conditional_transformer.py": {
+    "bytes": 7220,
+    "sha256": "e7599486e46a74beb5246f0c57565169c7c0b619cc12980fdfaa8456ef3b84b7"
+  },
+  "outdoor_registration/vendor/geotransformer/modules/transformer/lrpe_transformer.py": {
+    "bytes": 5871,
+    "sha256": "6941d945a3d01df270a400371c30f15c58ea0c051a03d1ad286d441ebeb08cec"
+  },
+  "outdoor_registration/vendor/geotransformer/modules/transformer/output_layer.py": {
+    "bytes": 855,
+    "sha256": "be2177d4ededaa84712499630c70f76594364308d37e22876ec368570135cb62"
+  },
+  "outdoor_registration/vendor/geotransformer/modules/transformer/pe_transformer.py": {
+    "bytes": 4833,
+    "sha256": "73eec12e4420297dc80b36411f93aaef13f9b44e8c73c2ae26b62b5cfef6a2f4"
+  },
+  "outdoor_registration/vendor/geotransformer/modules/transformer/positional_embedding.py": {
+    "bytes": 2484,
+    "sha256": "b0fb257933feb8fef9a746f8692d5c6b78c0e39a9fdb857ddf5813cc81052a18"
+  },
+  "outdoor_registration/vendor/geotransformer/modules/transformer/rpe_transformer.py": {
+    "bytes": 5309,
+    "sha256": "ef71a77b0ca3f2fe61bd0ad8c037a4cf34c2335eb76ea4e9eea3657e1e61d25a"
+  },
+  "outdoor_registration/vendor/geotransformer/modules/transformer/vanilla_transformer.py": {
+    "bytes": 8126,
+    "sha256": "4c7f0dbc851a3921ec8753d53d6bf06e4822c2ba0e79eacb4423bd4fcf0a68f4"
+  },
+  "outdoor_registration/vendor/geotransformer/transforms/__init__.py": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "outdoor_registration/vendor/geotransformer/transforms/functional.py": {
+    "bytes": 5392,
+    "sha256": "9d9a42ee500d53d787528d40fcbdc5bcbb847694205515732d0ab396b32ec020"
+  },
+  "outdoor_registration/vendor/geotransformer/utils/__init__.py": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "outdoor_registration/vendor/geotransformer/utils/average_meter.py": {
+    "bytes": 756,
+    "sha256": "672bb2d172737f3ea9bdffc3bef194e6816e978df76aea3645305762d7b0b01b"
+  },
+  "outdoor_registration/vendor/geotransformer/utils/common.py": {
+    "bytes": 2016,
+    "sha256": "09bcb3f306738edda584f4da43b7efdf21b5441d5cdebaf577598988fc9faa04"
+  },
+  "outdoor_registration/vendor/geotransformer/utils/data.py": {
+    "bytes": 7976,
+    "sha256": "705e75ad6ce9e04c03b7cd880aa44b094778da83475a339da67dbfc6676e9416"
+  },
+  "outdoor_registration/vendor/geotransformer/utils/open3d.py": {
+    "bytes": 6797,
+    "sha256": "9b57517dbb7fc30d545accd67f14c1af209628018b57924b7ee3f9a9a49c4d69"
+  },
+  "outdoor_registration/vendor/geotransformer/utils/pointcloud.py": {
+    "bytes": 8629,
+    "sha256": "071e65cb1a26ffc670139f0a62eb889aa927b7e82cc1ac99d2cd70db4fa7158a"
+  },
+  "outdoor_registration/vendor/geotransformer/utils/registration.py": {
+    "bytes": 10616,
+    "sha256": "cc3f6cfc07dfc662b6908d313e10319ddd05fef6c3a7da0adf5f3e89f93802e0"
+  },
+  "outdoor_registration/vendor/geotransformer/utils/summary_board.py": {
+    "bytes": 2990,
+    "sha256": "0cab5ac9f486ff87d32c83bf4dd8edd8e58eb0d311ec10baf346b5fb24c61f58"
+  },
+  "outdoor_registration/vendor/geotransformer/utils/timer.py": {
+    "bytes": 2338,
+    "sha256": "0ea3c3ab7c88e542492982994ef5f48f3e8634cf8eaa65f6a15ffd76c9bd8b89"
+  },
+  "outdoor_registration/vendor/geotransformer/utils/torch.py": {
+    "bytes": 5365,
+    "sha256": "0c8a869bd4324d9c5c16739ef0b3733d67aaba0fd4d9ab5a47dfc8e25ff802c1"
+  },
+  "outdoor_registration/vendor/geotransformer/utils/visualization.py": {
+    "bytes": 5831,
+    "sha256": "41a7ce6c5a4bccf024c6db134274513b74be9fdd3904b2168b85690dcf7bebdb"
+  },
+  "outdoor_registration/vendor/setup.py": {
+    "bytes": 814,
+    "sha256": "6d5f2eb1f21ecd591cafcfdf87936104f54c2749d25ecbee408dfb1f530145ee"
+  },
+  "tools/check_data.py": {
+    "bytes": 1671,
+    "sha256": "4cf28bc7527490f1f7d803d85f574e47fce42eca962804f98c44f47ba87c7bb2"
+  },
+  "tools/check_release.py": {
+    "bytes": 4045,
+    "sha256": "2429d63cdce0bb2f22ac41aed64bbc1186ec71e7c852f4377fadcc0ce05c55ba"
+  },
+  "tools/run_smoke.py": {
+    "bytes": 4377,
+    "sha256": "c513fb3b07c5825b6b4613e51f11e1ada4d269ddc693b5bce1f2806e8b059bb5"
+  },
+  "train.py": {
+    "bytes": 2668,
+    "sha256": "05a9738a00bfff21c550b0d971886b30dbdcecf466efec303e22f81724e605b0"
+  },
+  "train_verifier.py": {
+    "bytes": 2072,
+    "sha256": "d2e123bdeda5fd593daaf652428b6b464ceaecd91814f5e88e0247d75f605af0"
+  },
+  "training/final_stage_protocol.json": {
+    "bytes": 457250,
+    "sha256": "f1f41e917663d005ed0f886a5cd8e2039fee35660c7e96984ace80c2a40c3e08"
+  },
+  "training/historical/autodiag_train_joint.py": {
+    "bytes": 9845,
+    "sha256": "06680b1e2f08717c0f71343c23d284f2d87d6ca684f8ceb9369c4764d723af50"
+  },
+  "training/historical/train_kitti_crossdomain_v2.py": {
+    "bytes": 10226,
+    "sha256": "6a3e760ba10c4542d460d48616331b02bb48d9c18e6dd09eee91151420278cbb"
+  },
+  "training/historical/train_kitti_listwise_verifier.py": {
+    "bytes": 7438,
+    "sha256": "7ebea580fb47cecbe8112db48e4a3eaf01ac87900bfd6a2c03e62447bd889596"
+  },
+  "training/verifier_cache/records.json": {
+    "bytes": 101355,
+    "sha256": "90b308cff80ecfaccdbe02b3ad87fa969164cb06c40bd17d95d89c7dbb27d89a"
+  },
+  "training/verifier_protocol.json": {
+    "bytes": 982,
+    "sha256": "21f46aa44544ba91655ef43bc057039a45fba06f5a835ee8a44211520fabdcb1"
+  },
+  "weights/native.pt": {
+    "bytes": 102499622,
+    "sha256": "8d51512fb2be226cfd36374aa3940ae5db52d10fb70b6897d2d030e0fbc1f270"
+  },
+  "weights/overlap.pt": {
+    "bytes": 68176,
+    "sha256": "dc36b59ad49ca6eeef3d69ffd0fdedc4a466d12d1ffa4f4d0f5294003b1f7a8d"
+  },
+  "weights/training_init.pt": {
+    "bytes": 102499558,
+    "sha256": "20996636f6134081a6938198d413c2aedf491f06f689094573ff545c4f538391"
+  },
+  "weights/verifier.pt": {
+    "bytes": 29577,
+    "sha256": "663509eb512a6022aa53a2e2a9828f045cc724f4c783e0e4dbbe5780ccf5b09f"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "kitti": {
+    "pairs": 544,
+    "outputs_per_pair": 10,
+    "max_replay_parity": {
+      "native": 0,
+      "full": 0,
+      "without_refit": 0
+    },
+    "consistency_guard_pose_changes_at_1e-4": 0
+  },
+  "cross3dreg": {
+    "pairs": 4145,
+    "outputs_per_pair": 10,
+    "max_replay_parity": {
+      "native": 0,
+      "full": 0,
+      "without_refit": 0
+    },
+    "consistency_guard_pose_changes_at_1e-4": 16
+  }
+}
