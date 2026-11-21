@@ -1,0 +1,92 @@
+[
+  {
+    "path": "outdoor_registration/backbone.py",
+    "sha256": "817593f25ab709d57b6cea217f10b70200e618a6d1f6b6a207b6ce0b7441026c",
+    "matches_frozen_source": true
+  },
+  {
+    "path": "outdoor_registration/runtime.py",
+    "sha256": "6ceb902149f5154bd675b8b59b28411dc0647ce5bc38552dce69c644ab21fb75",
+    "matches_frozen_source": true
+  },
+  {
+    "path": "outdoor_registration/bootstrap.py",
+    "sha256": "ab151e407f9cadd0168f2f8bf4b01913d4e1baf83013caeb7dc197e293507892",
+    "matches_frozen_source": true
+  },
+  {
+    "path": "outdoor_registration/kitti_crosssource.py",
+    "sha256": "9b66af0e3c28f1a274ff913ce6685ceea619afc5f89fc5ee2a3ea33bf0fcd68b",
+    "matches_frozen_source": true
+  },
+  {
+    "path": "outdoor_registration/small_cloud.py",
+    "sha256": "147feef96ab511e454f8f86fc03fac65b8d76bc93ca8b493482bc0a38f670c6e",
+    "matches_frozen_source": true
+  },
+  {
+    "path": "outdoor_registration/config.py",
+    "sha256": "4930e9929ce7bdbe5a3ac8b5dea348bdb3b23fe3a23bd6a84066f8216a39b971",
+    "matches_frozen_source": true
+  },
+  {
+    "path": "outdoor_registration/expanded_data.py",
+    "sha256": "43d22518cef98b4736da7b99241c168cee45b7f06b47890077eeb9e71c762fb6",
+    "matches_frozen_source": true
+  },
+  {
+    "path": "outdoor_registration/loss.py",
+    "sha256": "e91170aae6698f912b59f45d05eb71385e25bd72cb2dc437a78999941ae02952",
+    "matches_frozen_source": true
+  },
+  {
+    "path": "outdoor_registration/__init__.py",
+    "sha256": "9b363049a34a99c6afc5307dd779ef15dcff4dd7a453ae0c894c074151d11920",
+    "matches_frozen_source": true
+  },
+  {
+    "path": "outdoor_registration/data.py",
+    "sha256": "1716b99dff2024b99a5d09d8923845b49b5ded4d998ff766ff8c85366e845a39",
+    "matches_frozen_source": true
+  },
+  {
+    "path": "outdoor_registration/model.py",
+    "sha256": "eac143f36c1181d7d4db024fe0a38262b9d91212f9e54d495d087e54e6980636",
+    "matches_frozen_source": true
+  },
+  {
+    "path": "outdoor_adaptation/prior_refinement.py",
+    "sha256": "09ed38895050836f1904472ced87a748fbf449628ed5bbca58833b71ee3bdf60",
+    "matches_frozen_source": true
+  },
+  {
+    "path": "outdoor_adaptation/cloudwise_norm.py",
+    "sha256": "6fdc39d7a62e88924576a9a417fa073fbbc69cc31af7730cf12b2e83e07f0317",
+    "matches_frozen_source": true
+  },
+  {
+    "path": "outdoor_adaptation/consistency_guard.py",
+    "sha256": "f11604fd346461c34112b77857a3f66b21c62fc59704d4dcb6078b4c4197fb40",
+    "matches_frozen_source": true
+  },
+  {
+    "path": "outdoor_adaptation/joint_fine_interaction.py",
+    "sha256": "2dc18685bff5b0808c4d85e04eb262697005db37c89ff58305d319e73967e050",
+    "matches_frozen_source": true
+  },
+  {
+    "path": "outdoor_adaptation/fine_interaction.py",
+    "sha256": "291ef97fab41c81e679c5bb2c886bcfabc17b56888638ab619303d5f7bebd258",
+    "matches_frozen_source": true
+  },
+  {
+    "path": "outdoor_adaptation/pose_guided_registration.py",
+    "sha256": "5acce8caa1bebd1ec512b21264a645fd042e36d4b537a5e1ebc6a82fc52d7fba",
+    "matches_frozen_source": true
+  },
+  {
+    "path": "outdoor_adaptation/__init__.py",
+    "sha256": "73156a66dfbad59406a42918029701dd4875f3cdd0c1117bf4160a2cb79e356c",
+    "matches_frozen_source": true
+  }
+]
